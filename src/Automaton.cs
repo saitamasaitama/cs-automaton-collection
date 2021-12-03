@@ -63,6 +63,7 @@ namespace cs_automaton_collection
     }
   }
 
+  /*
   public interface ITuringMachine<CON, HEAD, TAPE>
     where CON : Controller
     where HEAD : Head
@@ -77,5 +78,5 @@ namespace cs_automaton_collection
   public abstract class TuringAutomaton:ITuringMachine
   {
 
-  }
+  }*/
 }
