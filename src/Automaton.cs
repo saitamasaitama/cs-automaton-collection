@@ -54,4 +54,5 @@ namespace cs_automaton_collection
       this.Kill();
     }
   }
+
 }
