@@ -9,15 +9,7 @@ namespace cs_automaton_collection
   public interface IAutomatonInterface
   {
   }
-
-  public abstract class Teep<ITEM> : IAutomatonItem
-    where ITEM:IAutomatonItem
-  {
-
-    public ITEM Head;
-  }
   
-
   public abstract class Automaton<ITEM> : IAutomatonInterface
   where ITEM:IAutomatonItem
   {
@@ -61,21 +53,5 @@ namespace cs_automaton_collection
     {
       this.Kill();
     }
-  }
-
-  public interface ITuringMachine<CON, HEAD, TAPE>
-    where CON : Controller
-    where HEAD : Head
-    where TAPE:Tape
-  {
-    
-    CON Controller { get; set; }
-    HEAD Head { get; set; }
-    TAPE Tape { get; set; }
-  }
-
-  public abstract class TuringAutomaton:ITuringMachine
-  {
-
   }
 }

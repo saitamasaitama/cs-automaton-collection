@@ -22,10 +22,6 @@ namespace cs_automaton_collection.CellAutomaton.D1
 
     public class D1Cell : ICell
     {
-      public D1Cell()
-      {
-      }
-
       public List<ICell> NextAll()
       {
         return new List<ICell>()
