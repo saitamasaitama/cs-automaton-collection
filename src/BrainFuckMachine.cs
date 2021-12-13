@@ -65,8 +65,6 @@ namespace cs_automaton_collection
   {
 
     public StreamReader sr = new StreamReader("");
->>>>>>> 15b8d360b430eb02caf9285fde2597667d8a3807
-
     public override void Run(MachineCode<Machine<BrainFuckCommand>, BrainFuckCommand> code)
     {
       
